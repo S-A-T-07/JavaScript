@@ -1,0 +1,9 @@
+Basic Concepts in JS
+
+    1. Displaying contents : Using console.log() method
+    - () : parenthesis bracket
+    - Data types that are understood by JS:
+        a. Numbers
+        b. Text : contents inside single or double quotes
+    
+    2.
