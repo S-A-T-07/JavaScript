@@ -2,7 +2,7 @@
 //                                                                  22/08/24
 // ---------------------------------------------------------------------------------------------------------------------------------------------
 
-//                                                             Arithmetic Operators
+//                                                              Arithmetic Operators
 
 //  - Modulus (%)
 
@@ -19,7 +19,7 @@ console.log(`Last digit of ${y} = ${y % 10}`);
 
 console.log(`${x}^2 = ${x ** 2}`);
 
-//                                                             Relational Operators
+//                                                              Relational Operators
 //                                                          (Always returns Boolean values)
 
 console.log(`Is x greater than y : ${x > y}`);
@@ -36,8 +36,8 @@ z = '10'
 console.log(`when x = ${x}(number) & z= ${z}(string)`);
 console.log(`is x equals z : ${x === z}`);
 
-//                                                              Logical Operators
-//                                                (To combine Realtional Expressions, Always returns Boolean)
+//                                                                  Logical Operators
+//                                                  (To combine Realtional Expressions, Always returns Boolean)
 
 w = 20
 //check x is in b/w w & y
