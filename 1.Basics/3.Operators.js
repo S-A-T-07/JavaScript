@@ -36,7 +36,7 @@ z = '10'
 console.log(`when x = ${x}(number) & z= ${z}(string)`);
 console.log(`is x equals z : ${x === z}`);
 
-//                                                             Logical Operators
+//                                                              Logical Operators
 //                                                (To combine Realtional Expressions, Always returns Boolean)
 
 w = 20
