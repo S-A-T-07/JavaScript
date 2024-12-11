@@ -42,3 +42,47 @@ console.log(`is x equals z : ${x === z}`);
 w = 20
 //check x is in b/w w & y
 console.log(`Is x (x=${x}) is in between w (w=${w}) and y (y=${y}) : ${x < y && x > w}`);
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+//                                                                      23/08/24
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+
+//                                                          Increment or Decrement Operators
+
+var a = 10
+console.log('Post increment');
+console.log(`a = ${a}`);
+console.log(`a++ = ${a++}`);
+console.log(`a = ${a}`);
+
+var a = 10
+console.log('Pre increment');
+console.log(`a = ${a}`);
+console.log(`++a = ${++a}`);
+console.log(`a = ${a}`);
+
+var a = 10
+console.log('Post decrement');
+console.log(`a = ${a}`);
+console.log(`a-- = ${a--}`);
+console.log(`a = ${a}`);
+
+var a = 10
+console.log('Pre decrement');
+console.log(`a = ${a}`);
+console.log(`--a = ${--a}`);
+console.log(`a = ${a}`);
+
+//                                                          Short hand Operators
+//                (Used only when we have same variable to the immediate left and right side of the assignemnt operator(=))
+
+var b = 20
+console.log(`b = ${b}`);
+b = b + 10
+console.log(`b = b + 10 = ${b}`);
+
+var c = 20
+console.log(`c = ${b}`);
+c += 10
+console.log(`b = ${c} and b += 10 = ${c}`);
+
