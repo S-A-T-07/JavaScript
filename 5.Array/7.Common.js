@@ -2,10 +2,11 @@
 a1 = [10, 11, 12, 20, 30]
 a2 = [11, 20, 21, 30, 31]
 
-for (let i = 0; i < a1.length; i++){
-    for (value of a2) {
-        if (a1[i] == value) {
-            console.log(value);
-        }
+for (let value1 of a1) {
+  for (let value2 of a2) {
+    if (value1 == value2) {
+        console.log(value1);
+        break;
     }
+  }
 }
