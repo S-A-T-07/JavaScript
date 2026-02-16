@@ -22,3 +22,13 @@ console.log(`After using pop medthod: ${weekDays}`);
 
 weekDays.shift()
 console.log(`After using shift medthod: ${weekDays}`);
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+//                                                                      04/09/24
+// ---------------------------------------------------------------------------------------------------------------------------------------------
+
+console.log(`Display Array items one by one - normal for loop`);
+for (let index = 0; index < weekDays.length; index++){
+    console.log(weekDays[index]);
+}
+
